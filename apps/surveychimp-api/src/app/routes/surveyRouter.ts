@@ -6,7 +6,7 @@ import { nextTick } from 'process';
 const router = Router();
 
 router.get(
-    '/survey/:surveyId',
+    '/survey/:surveyId', 
     param("surveyId").isMongoId(),
     async (req, res, next) => {
         try {
