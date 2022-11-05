@@ -6,8 +6,9 @@
     "start": "nx serve",
     "build": "nx build",
     "test": "nx test",
-    "test:api": "nx run surveychimp-api:test",
-    "test:survey-spa": "nx run surveychimp-survey-spa:test"
+    "test:api": "nx run surveychimp-api:test --coverage",
+    "test:survey-spa": "nx run surveychimp-survey-spa:test --coverage",
+    "coverage:api": ""
   },
   "private": true,
   "dependencies": {
